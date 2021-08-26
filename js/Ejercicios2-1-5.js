@@ -56,32 +56,58 @@ switch(nota){
                        
 }
 */
-/*
+/*3- hacer un script que pida texto y al pulsar cancelar, anilar todas las letras con un -
+*/
 
-
-/*
-4- Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número
-deberá indicarse con un «alert» y seguir pidiendo números. Al salir con “cancelar” deberá
-indicarse la suma total de los números introducidos.
- */
-/*
-let suma = 0;
-
+/*let contenedor = "";
 do{
-    let numero=prompt("Ingrese los numeros");
+    let palabra = prompt("Ingrese una palabra");
+    contenedor = contenedor + "-"+palabra;
 
-    if(Number(numero)==numero){
-        numero=Number(numero);
-        suma = numero + suma;
-    }
-    else{
-        if(numero!=undefined){
-            alert(numero + "NO es un numero");
-        }
-    }
-  
+}while(confirm("Desea continuar?"));
+document.write(contenedor);*/
 
-}while(numero!=undefined);
 
+/*4- Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número
+deberá indicarse con un «alert» y seguir pidiendo números. Al salir con “cancelar” deberá
+indicarse la suma total de los números introducidos.*/
+ 
+/*let suma = 0;
+do{
+    let numero= parseInt(prompt("Ingrese los numeros"));
+    suma = suma + numero;
+   
+}while(confirm("Desea Continuar?"))
 document.write(suma);*/
 
+/*
+10- Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro cada
+una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por
+ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
+ */
+let fila = parseInt(prompt("Ingrese el numero de filas"));
+let columna = parseInt(prompt("Ingrese el numero de columnas"));
+let producto = fila*columna;
+
+document.write("<table border>");
+/*
+document.write("<tr>");
+document.write("<td>prueba");
+
+document.write("</td>");
+document.write("</tr>");
+*/
+for(let indiceFilas = 0;indiceFilas<fila;indiceFilas++){
+    //dibujar las filas
+    document.write("<tr>");
+    //dibujar las celdas
+    for(let indiceColumna=0; indiceColumna<columna;indiceColumna++){
+        document.write("<td>"+producto);
+        document.write("</td>");
+        producto--;
+
+    }
+    document.write("</tr>");
+
+}
+document.write("</table>");
