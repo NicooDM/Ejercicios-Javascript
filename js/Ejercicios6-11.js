@@ -53,7 +53,9 @@ else(console.log("El numero no es divisible por 2"));*/
 */
 /*
 let frase = prompt("Ingrese una frase");
-console.log(frase);
+
+
+frase = frase.toLowerCase();
 console.log(frase.length);
 
 for (let vocal = 0; vocal < frase.length; vocal++) {
