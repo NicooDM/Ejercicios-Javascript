@@ -41,13 +41,33 @@ else if(numero1===numero2&& numero1===numero3){
 */
 /*
 8.- Escribe un programa que pida un número y diga si es divisible por 2
-*/ 
+*/
 /*
 let numero= parseInt(prompt("Ingrese el numero : "));
 if(numero%2==0){
     console.log("El numero es divisible por 2");
 }
 else(console.log("El numero no es divisible por 2"));*/
+/*
+9- escribe un programa que pida una frase y devuelva las vocales
+*/
+/*
+let frase = prompt("Ingrese una frase");
+console.log(frase);
+console.log(frase.length);
+
+for (let vocal = 0; vocal < frase.length; vocal++) {
+  console.log(frase.charAt(vocal));
+  if (
+    frase.charAt(vocal) == "a" ||
+    frase.charAt(vocal) == "e" ||
+    frase.charAt(vocal) == "i" ||
+    frase.charAt(vocal) == "o" ||
+    frase.charAt(vocal) == "u"
+  ) {
+      document.write(frase.charAt(vocal));
+  }
+}*/
 
 /*10.-11 Escribe un programa que pida un número y nos diga si es divisible por 2,
 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro) */
