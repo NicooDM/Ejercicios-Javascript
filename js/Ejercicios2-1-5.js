@@ -85,6 +85,7 @@ document.write(suma);*/
 una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por
 ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
  */
+/*
 let fila = parseInt(prompt("Ingrese el numero de filas"));
 let columna = parseInt(prompt("Ingrese el numero de columnas"));
 let producto = fila*columna;
@@ -97,6 +98,7 @@ document.write("<td>prueba");
 document.write("</td>");
 document.write("</tr>");
 */
+/*
 for(let indiceFilas = 0;indiceFilas<fila;indiceFilas++){
     //dibujar las filas
     document.write("<tr>");
@@ -110,4 +112,4 @@ for(let indiceFilas = 0;indiceFilas<fila;indiceFilas++){
     document.write("</tr>");
 
 }
-document.write("</table>");
+document.write("</table>");*/
