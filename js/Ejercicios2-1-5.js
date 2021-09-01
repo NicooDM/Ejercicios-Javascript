@@ -79,7 +79,63 @@ do{
    
 }while(confirm("Desea Continuar?"))
 document.write(suma);*/
+/*
+6- Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma :
+1
+22
+333
+4444
+55555 
+666666
+ */ 
+/*
+for(let i = 0; i <=30;i++){
 
+    for (let o = 0; o<i ; o++){
+        document.write(i);
+    }
+    document.write("</br>")
+}*/
+/*
+7-8 Haz un script que escriba una pirámide inversa de los números del 1 al número que
+indique el usuario (no mayor de 50) de la siguiente forma : (suponiendo que indica 30).
+303030303030303030303030303030303030303030303030303030303030
+2929292929292929292929292929292929292929292929292929292929
+28282828282828282828282828282828282828282828282828282828
+…..
+333
+22
+ */
+/*
+let numero = parseInt(prompt("Ingrese un numero del 1 al 50"));
+
+for(let i =0; i<=numero; i++){
+    for(let o = 0; o<=i;o++){
+        document.write(i);
+    }
+    document.write("</br>")
+}
+*/
+/*
+9- Crea un script que escriba los números del 1 al 500, que indique cuáles son múltiplos de
+4 y de 9 y que cada 5 líneas muestre una línea horizontal. 
+ */
+/*
+let numero = 500;
+for(let i = 1; i<=500; i++){
+    document.write(i);
+    if(i%4==0){
+        document.write("(Multiplo de 4)");
+
+    }
+    if(i%9==0){
+        document.write("(Multiplo de 9)");
+    }
+    document.write("</br>");
+    if(i%5==0){
+        document.write("<hr>")
+    }
+}*/
 /*
 10- Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro cada
 una de las celdas deberá escribirse un número consecutivo en orden descendente. Si, por
