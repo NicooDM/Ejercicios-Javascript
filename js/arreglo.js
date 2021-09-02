@@ -1,3 +1,4 @@
+
 //let anime = "Dragon Ball Z"
 //crear o inicializar un arreglo
 //let series = ["strangerThings","blindspot","vikingos",anime,15,true];
@@ -29,7 +30,7 @@ for(let i = 0; i<=series.length;i++){
     document.write("</br>"+series[i]);
 }*/
 //agregar elemento nuevo en una posicion seleccionada
-//el primer valor indica el indice, el segundo elemento indica la cantidad que quiero borrar, el tercero es el elemento a agregar en el arreglo
+//el primer valor indica el indice, el segundo elemento indica la cantidad que quiero borrar a partir de esta posicion, el tercero es el elemento a agregar en el arreglo
 /*
 series.splice(0,0,"outlander");
 document.write("</br>")
@@ -48,3 +49,15 @@ do{
 }while(confirm("desea ingresar mas peliculas?"))
 
 document.write(peliculas);*/
+
+// eliminar elementos 
+// el primer elemento es el indice , el segundo es cuantos elementos a borrar a partir de la posicion anterior
+//series.splice(0.2)
+
+//borrar desde el elemento (x) todos los elementos de un array
+// apartir de la posicion 8(incluyendo la posicion 8) borrar todos los elementos 
+//series.splice(8)
+
+//borrar elemento 0 en array
+//series.splice(0,1)
+
