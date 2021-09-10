@@ -89,6 +89,7 @@ document.write(`El valor del perimetro del rectangulo es : ${rectangulo(ladoA,la
 la creación de la tabla debe ser realizada con una función y mostrar solo los resultados del 1
 al 10 del número elegido por el usuario.
  */
+/*
 const tablas = (numero1)=>{
   document.write(`La tabla del ${numero1}`)
   for(let i = 1; i<=10;i++){
@@ -100,5 +101,6 @@ const tablas = (numero1)=>{
 }
 let numero = parseInt(prompt("Ingrese la tabla del : "));
 
-document.write(tablas(numero))
+document.write(tablas(numero));
+*/
 
