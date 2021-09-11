@@ -104,3 +104,4 @@ let numero = parseInt(prompt("Ingrese la tabla del : "));
 document.write(tablas(numero));
 */
 
+
